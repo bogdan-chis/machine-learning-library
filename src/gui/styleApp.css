@@ -1,0 +1,46 @@
+.tab-pane .tab-header-background {
+    -fx-background-color: black;
+}
+
+.tab-pane .tab {
+    -fx-background-color: black;
+    -fx-border-color: white;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-font-size: 11px;
+}
+
+.spinner {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-radius: 5px;
+}
+
+.spinner .text-field {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-padding: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 3px;
+}
+.spinner .increment-arrow-button, .spinner .decrement-arrow-button {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+.spinner .increment-arrow-button:hover, .spinner .decrement-arrow-button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-font-size: 12px;
+}
